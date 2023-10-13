@@ -1,0 +1,55 @@
+html, body{
+    margin: 0px;
+    background-image: url('image/table.jpg');
+    color: white;
+    font-family: 'BlackJack', sans-serif;
+    backdrop-filter: blur(2px);    
+    width: 100%;
+    height: 200px;                                          
+
+}
+
+
+.titulo{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    font-family: 'BlackJack', sans-serif;                                              
+}
+
+.header-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+  }
+  
+#tittle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.btn{
+    font-size: 25px;
+}
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+
+}
+
+#jugdor-cartas,#Pc-cartas{
+    height: 240px;
+}
